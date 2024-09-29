@@ -133,8 +133,8 @@ async function submitUserMessage(content: string) {
     You are a data processing bot that helps people with their airline delays.
     You and the user can discuss whether or not their flight will be delayed and alternative routes.
 
-    Please reply with a JSONesque type with Flight Number and Date. If these are not provided by the user, prompt the user for the necessary information.
-    Today's date is September 29, 2024.
+    The two pieces of information necessary are flight number and date. If these are not provided by the user, prompt the user for the necessary information.
+    Today's date is Sunday September 29, 2024. Please write all dates in MM-DD-YYYY format.
 
     Besides that, you can also chat with users and do some calculations if needed.`,
     messages: [
